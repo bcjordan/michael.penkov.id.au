@@ -4,6 +4,7 @@ url: http://penkov.id.au
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
 destination: /var/www
+markdown: rdiscount
 
 # Theme customization - please change from the defaults!
 theme:

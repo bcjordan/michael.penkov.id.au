@@ -72,3 +72,5 @@
 		line-height: 24px;
 	}
 }
+
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
