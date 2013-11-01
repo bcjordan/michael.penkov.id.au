@@ -2,7 +2,7 @@
 layout: post
 title: A Window into the Australian Workforce
 categories:
-- blog
+- talks
 ---
 
 I recently gave a 1-hour presentation about my experience working in Australia.
