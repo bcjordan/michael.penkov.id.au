@@ -3,7 +3,7 @@ pygments: true
 url: http://penkov.id.au
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
-destination: /var/www
+destination: _site
 markdown: rdiscount
 
 # Theme customization - please change from the defaults!
@@ -33,4 +33,4 @@ theme:
   google_analytics_key: UA-xxxx-x
 
   # Toggle "Postings are my own" disclaimer in footer
-  show_disclaimer: true
+  show_disclaimer: false
