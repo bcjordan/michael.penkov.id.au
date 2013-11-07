@@ -12,7 +12,7 @@ A linear-time algorithm was proposed soon thereafter, in 1984.
 The goal for the practice exercise was to come up with a linear-time algorithm, from scratch.
 
 To get the ball rolling, if often helps to think of sub-optimal solutions.
-There's an obvious $O(N\^3)$ solution that's fairly easy to come up with:
+There's an obvious `$O(N^3)$` solution that's fairly easy to come up with:
 
 {% highlight python %}
     def max_subarray(A):
@@ -25,7 +25,7 @@ There's an obvious $O(N\^3)$ solution that's fairly easy to come up with:
       return max_sum
 {% endhighlight %}
 
-Why is it $O(N\^3)$?
+Why is it `$O(N^3)$`?
 Well, the outer loop gets executed for exactly $N$ elements.
 The inner loop gets executed for $N-1$ elements the first time, $N-2$ elements the second time, and so on. 
 The inner loop also contains a sum that takes linear time to calculate.
@@ -46,11 +46,11 @@ In particular, instead of calculating the sum for each iteration of the inner lo
       return max_sum
 {% endhighlight %}
 
-Since we've replaced the linear-time sum calculation with a pair of constant-time operations, the complexity of this solution is now $O(N\^2)$.
+Since we've replaced the linear-time sum calculation with a pair of constant-time operations, the complexity of this solution is now `$O(N^2)$`.
 It's still not linear, but it's better than what we started with.
 
 So, how about the linear solution?
-The solution I first came up with applied the same trick that we used to go from $O(N\^3)$ to $O(N\^2)$ - modify the sum incrementally.
+The solution I first came up with applied the same trick that we used to go from `$O(N^3)$` to `$O(N^2)$` - modify the sum incrementally.
 First, build the sum up incrementally - while it's positive, continue adding elements to the end of the subarray, and keep track of the maximum so far.
 If the sum becomes negative, then remove elements from the front of the subarray.
 Here's the full solution:
