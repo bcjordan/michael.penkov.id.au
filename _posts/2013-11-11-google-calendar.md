@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Synchronizing other calendars with Google
+title: Synchronizing other calendars with Google Calendar
 categories:
 - blog
 ---
 
 Scheduling things can be surprisingly difficult for a graduate student - you need to keep track of classes, seminars and various other meetings.
 Over the years, I've come to rely on [Google Calendar](http://calendar.google.com) to help me organize myself from day to day.
-I keep all my appointments there - having them all in one place makes them more difficult to miss, and makes scheduling future appointmets a lot easier.
+I keep all my appointments there - having them all in one place makes them more difficult to miss, and makes scheduling future appointments a lot easier.
 Unfortunately, not everyone uses Google Calendar: for example, [my lab](http://lmd.ist.hokudai.ac.jp) uses an antique version of [xoops](http://xoops.org/); my [gym](http://reebokcrossfitssc.com/) uses [supersaas.com](http://www.supersaas.com/).
-This means I need to keep track of three calendards when making a new appointment:
+This means I need to keep track of three calendars when making a new appointment:
 
 1. Check my Google calendar for personal appointments
 2. Check my lab's calendar for relevant meetings
