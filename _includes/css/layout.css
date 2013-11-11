@@ -74,3 +74,5 @@
 }
 
 #post code.has-jax {font: inherit; font-size: 100%; background-color: inherit; border: inherit;}
+div.left {float: left}
+div.right {float: right}

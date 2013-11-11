@@ -25,3 +25,19 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+
+<div id="page-navigation">
+  <div class="clear">&nbsp;</div>
+  <div class="left">
+  {% if page.previous.url %}
+    &laquo; <a href="{{page.previous.url}}" title="Older post: {{page.previous.title}}">Older Post</a>
+  {% endif %}
+  </div>
+
+  <div class="right">
+  {% if page.next.url %}
+    <a href="{{page.next.url}}" title="Next post: {{page.next.title}}">Newer Post</a> &raquo;
+  {% endif %}
+  </div>
+  <div class="clear">&nbsp;</div>
+</div>
