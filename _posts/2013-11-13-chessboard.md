@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Remembering Chess Positions
+title: Remembering chess coordinates 
 categories:
 - blog
 ---
