@@ -68,5 +68,5 @@ For example:
  - British and Canadian postcodes follow a similar pattern
  - ... and [many more](http://www.columbia.edu/~fdc/postal/).
 
-That's all for today, but in future articles, I'll be looking at the actual mechanics of parsing an address, as well as other supplementary materials that it's impossible to go without.
+That's all for today, but in future articles, I'll be looking at the actual mechanics of parsing an address, as well as other essential supplementary materials.
 Stay tuned!
