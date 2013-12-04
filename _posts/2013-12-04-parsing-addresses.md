@@ -67,3 +67,6 @@ For example:
  - Street types in English-speaking countries tend to be pretty common, such as the usual "street", "road", "avenue" and the more exotic "boulevard" and "esplanade".
  - British and Canadian postcodes follow a similar pattern
  - ... and [many more](http://www.columbia.edu/~fdc/postal/).
+
+That's all for today, but in future articles, I'll be looking at the actual mechanics of parsing an address, as well as other supplementary materials that it's impossible to go without.
+Stay tuned!
