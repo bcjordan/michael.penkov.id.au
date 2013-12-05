@@ -12,11 +12,11 @@ We only get to see the delivery guy (or girl, if you're lucky) dropping off the 
 1. Amazon packages the item and prints my address on the outside.
 2. Amazon entrusts the package to some domestic delivery company (in Japan, typically [Yamato](http://www.kuronekoyamato.co.jp/en/) or [Sagawa](http://www.sagawa-exp.co.jp/english/)).
 3. The delivery company interprets the address, in particular, looks for the postcode, prefecture, city and street address.
-4. The delivery company, which has depos all around Japan, picks a location that is closest to me, based on the above.
-5. A driver goes out to the address and delivers the package.
+4. The delivery company, which has depos all around Japan, sends the package to a depo location that is closest to me, based on the above.
+5. A driver from the depo goes out to the address and delivers the package.
 
 In this article, I'd like to focus on the third step: interpreting an address.
-This isn't something that is restricted to delivery companies: there are thousands of applications that involve finding out where exactly something is.
+This isn't something that is restricted to delivery companies: there are many applications that involve finding out where exactly something is.
 This particular task is known as [geocoding](http://en.wikipedia.org/wiki/Geocoding) and it is part of a broader problem area known as [geolocation](http://en.wikipedia.org/wiki/Geolocation).
 
 But let's get back to the specific problem and formulate it.
@@ -49,7 +49,7 @@ It turns out that this is a [fairly](http://stackoverflow.com/questions/518210/w
  - [Some](http://pyparsing.wikispaces.com/file/view/streetAddressParser.py) [Python](https://github.com/SwoopSearch/pyaddress) packages exist, but YMVA
  - There are [several](https://developers.google.com/maps/documentation/geocoding/) [online](http://smartystreets.com/products/liveaddress-api/extract) [services]() for parsing address (some free, some not free) (read a [review](http://blog.programmableweb.com/2012/06/21/7-free-geocoding-apis-google-bing-yahoo-and-mapquest/))
 
-The online services tend to give the best results, but its not practical to use them if, for example, you want to parse several million addresses in a hurry. And cheap. In that case, you'd have to reinvent the wheel.
+The online services tend to give the best results, but it's not practical to use them if, for example, you want to parse several million addresses in a hurry. And cheap. In that case, you'd have to reinvent the wheel.
 
 Luckily, you don't need to start from scratch.
 Many postal services maintain standards documents that dictate how exactly addresses need to be formatted (for example, [USPS Publication 28](http://pe.usps.gov/cpim/ftp/pubs/pub28/pub28.pdf)). 
@@ -59,7 +59,7 @@ This document is a goldmine of information that contains goodies like:
  - The expected order of address components
  - Mappings between English and Spanish address terms (for addresses in the US Territory of [Puerto Rico](http://en.wikipedia.org/wiki/Puerto_Rico)).
 
-By treating these documents as specifications, its possible to write a fairly robust parser for a particular country.
+By treating these documents as specifications, it's possible to write a fairly robust parser for a particular country.
 Furthermore, the specifications of different countries share many common points.
 For example:
 
