@@ -1,6 +1,6 @@
 # General Jekyll Config
 pygments: true
-url: http://penkov.id.au
+url: http://michael.penkov.id.au
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
 destination: _site
