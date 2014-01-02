@@ -33,7 +33,7 @@ Looking back on my experience this time, however, I've found that I've learnt a 
 
 The big take-away point from the whole exercise was: Web applications.
 As a professional software engineer, I've only built desktop apps and code that sits deep inside some library. 
-As a researcher, I only code that runs only on my machine. 
+As a researcher, I only write code that runs only on my machine. 
 Having to write a Web app taught me:
 
  1. You can do a lot with HTML5 (HTML, CSS and JavaScript) and a compatible browser. It's awesome for showing people stuff, like a demo or a toy. That's just HTML5 - we're not even in proper Web application territory.
