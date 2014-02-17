@@ -37,7 +37,7 @@ Suppose I gave you a simpler problem: using 1-yen coins only, make 10 yen.
 How many ways of doing that are there?
 Before you answer that, what if we could use 1- and 5-yen coins to make 10 yen?
 Could you somehow use the answer from the first problem to help answer the second?
-It turns that that Yes, We Cani&trade;. 
+It turns that that Yes, We Can&trade;. 
 Not only that, but we can continue to combine the solutions of larger, non-trivial sub-problems, until we reach our final solution.
 This is known as [Dynamic Programming](http://en.wikipedia.org/wiki/Dynamic_programming).
 More specifically, the approach above is known as bottom-up dynamic programming, since we're starting with smaller sub-problems and combining their solutions to solve a greater problem.
